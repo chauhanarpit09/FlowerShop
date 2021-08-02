@@ -1,3 +1,8 @@
+## Demo Link <a href="https://coviplas-28cb7.web.app/">FlowerShop</a>
+## UI design <a href="https://dribbble.com/shots/16083052-Gift-and-Flower-Shop-Landing-Page">Gift and Flower Shop Landing Page ( Syafrini Nabilla )</a>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
