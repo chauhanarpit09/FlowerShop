@@ -1,0 +1,109 @@
+
+.footer{
+    position: relative;
+    margin-top: 5rem;
+}
+.footerContainer{
+    display: flex;
+    align-items: center;
+    background-color:#070504;
+    color:#e7e8ec;
+    min-height: 15rem;
+}
+
+.footerImageHolder{
+    flex:0.2;
+}
+.emptyDiv{
+    flex:0.2;
+}
+.footerTextHolder{
+    flex:0.6;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+.footerImageHolder img{
+    position:absolute;
+    bottom: 0;
+    min-width: 20%;
+    min-height: 20%;
+}
+
+.footerTextHolder{
+    line-height:0.8rem;
+}
+.footerTextHolder h2{
+    font-size: 2rem;
+}
+
+.footerTextHolder p{
+    color: #c1bbbd;
+}
+
+.footerTextHolder h2::before{
+    border-top: 3px solid #e7e8ec;
+    display: block;
+    position: relative;
+    top: -25px;
+    left:-200px;
+    margin: 0 auto;
+    width: 40%;
+    content: "";
+}
+
+
+.footerTextHolder .footerSeacrhBar{
+    background-color: #e7e8ec;
+    border-radius: 25px;
+    max-width: 70%;
+    padding:3px;
+    margin: 10px 0px;
+    border: 2px solid #e7e8ec;
+}
+
+.footerTextHolder .footerSeacrhBar:hover{
+    border: 2px solid #1072B8;
+}
+
+.footerTextHolder .footerSeacrhBar input{
+    border:none;
+    outline:none;
+    padding:10px;
+    background-color: #e7e8ec;
+    border-radius: 25px;
+}
+
+.footerTextHolder .footerSeacrhBar button{
+    border-radius: 20px;
+    border: none;
+    padding:10px 15px;
+    color: #e7e8ec;
+    cursor: pointer;
+    background-color: #070504;
+}
+
+@media screen and (max-width : 1000px){
+    .footerTextHolder{
+        padding: 2rem;
+    }
+    .footerImageHolder img{
+        position: relative;
+    }
+    .footerContainer{
+        flex-direction: column-reverse;
+    }
+    .footerTextHolder .footerSeacrhBar{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerTextHolder h2::before{
+        width:80%;
+    }
+    .footerTextHolder{
+        line-height:2rem;
+    }
+}

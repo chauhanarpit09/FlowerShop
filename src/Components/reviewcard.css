@@ -1,0 +1,40 @@
+.reviewcard{
+    margin: 2rem;
+    padding: 2rem;
+    border-radius:10px;
+    background-color:#fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+.reviewcard.hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.reviewcard .reviewerProfile{
+    display: flex;
+}
+
+.reviewcard .reviewerProfile #name{
+    margin-left:10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.reviewContent p #content{
+    font-style: italic;
+    line-height: 2rem;
+}
+.reviewContent p #content::before{
+    content: '" ';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.reviewContent p #content::after{
+    content: ' "';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.6rem;
+}

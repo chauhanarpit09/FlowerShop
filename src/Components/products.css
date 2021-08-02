@@ -1,0 +1,9 @@
+.products p{
+    text-align:initial;
+    margin: 20px 50px
+    
+}
+.products p #heading{
+    font-weight: 400;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,73 @@
+.services{
+    display:flex;
+    justify-content:space-between;
+    padding: 4rem;
+    margin: 2rem 0rem;
+    background-color:#e7e8ec;
+}
+
+.serviceImage{
+    flex:0.5;
+}
+
+.serviceImage img{
+    border-radius: 20px;
+    max-width:100%;
+    max-height:100%;
+    object-fit:contain;
+}
+
+
+.serviceContent{
+    flex:0.5;
+    display:flex;
+    align-items:flex-start;
+    flex-direction:column;
+}
+
+.serviceContent p #headingservice{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.serviceContent p #heading{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.serviceContent p{
+    text-align:start;
+}
+.serviceContent .serviceLearnMore{
+    border-radius:25px;   
+}
+.serviceContent .serviceLearnMore button{
+    padding: 15px 20px;
+    border:none;
+    cursor:pointer;
+    background-color: #070504;
+    color:#e7e8ec;
+    border-radius:25px;
+}
+
+.serviceContent .serviceLearnMore button:hover{
+    border: 1px solid #070504;
+    color:#070504;
+    background-color: #e7e8ec;
+}
+
+
+@media screen and (max-width : 1400px){
+    .serviceImage{
+        flex:0.4;
+    }
+    .serviceContent{
+        flex:0.6;
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width : 1000px){
+    .services{
+        flex-direction: column;
+    }
+}

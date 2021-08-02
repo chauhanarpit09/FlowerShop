@@ -1,0 +1,33 @@
+.header{
+    display:flex;
+    background-color:#fff;
+    justify-content:space-between;
+    font-weight:500;
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.companyLogo{
+    flex:0.4;
+}
+
+.emptyDiv{
+    flex:0.2
+}
+
+.navigationLinks{
+    flex:0.4;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.signUpButton button{
+    border:none;
+    padding:10px 15px;
+    cursor: pointer;
+    border-radius:10px;
+    background-color:#070504;
+    color:#e7e8ec;
+}

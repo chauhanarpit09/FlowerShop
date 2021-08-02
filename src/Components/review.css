@@ -1,0 +1,27 @@
+.reviews{
+    margin-bottom: 15rem;
+}
+.reviewSlider{
+    margin: 10px 4rem;
+}
+
+.reviewHeading #heading{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.reviewHeading p{
+    text-align: left;
+    margin-left:100px;
+}
+@media screen and (max-width: 1100px){
+    .reviews{
+        margin-bottom: 1rem;
+    }
+    .reviewHeading p{
+        text-align: center;
+        margin:0 auto;
+    }
+    .reviewSlider{
+        margin: 2px 2rem;
+    }
+}
